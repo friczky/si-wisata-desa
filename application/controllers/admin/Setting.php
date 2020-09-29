@@ -39,7 +39,7 @@ class Setting extends CI_Controller {
             $gambarBaru = $this->upload->data('file_name');
             $this->db->set('favicon', $gambarBaru);
         } else {
-            echo $this->upload->display_errors();
+            // echo $this->upload->display_errors();
         }
         $this->db->where('id',1);
         $this->db->update('tb_setting',$data);

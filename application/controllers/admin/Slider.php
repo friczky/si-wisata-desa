@@ -62,7 +62,7 @@ class Slider extends CI_Controller {
             $gambarBaru = $this->upload->data('file_name');
             $this->db->set('file', $gambarBaru);
         } else {
-            echo $this->upload->display_errors();
+            // echo $this->upload->display_errors();
         }
         $this->db->where('id',$id);
         $this->db->update('tb_slider',$data);

@@ -78,7 +78,7 @@ class Pengguna extends CI_Controller {
             $gambarBaru = $this->upload->data('file_name');
             $this->db->set('foto', $gambarBaru);
         } else {
-            echo $this->upload->display_errors();
+            // echo $this->upload->display_errors();
         }
         $this->db->where('id',$id);
         $this->db->update('tb_user',$data);

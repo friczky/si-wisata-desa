@@ -31,7 +31,7 @@
 				<div class="row">
 					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
 						<div class="logo_container">
-							<div class="logo"><a href="<?= base_url()?>"><img style="margin-top: 20px" height="25px" src="<?= base_url('uploads/images/')?><?= $s['favicon']?>" alt=""><?= $s['nama']?></a></div>
+							<div class="logo"><a href="<?= base_url()?>"><img style="margin-top: 20px" height="25px" width="60px" src="<?= base_url('uploads/images/')?><?= $s['favicon']?>" alt=""><?= $s['nama']?></a></div>
 						</div>
 						<div class="main_nav_container ml-auto">
 							<ul class="main_nav_list">
@@ -89,10 +89,9 @@
 					<div class="menu_close_container"><div class="menu_close"></div></div>
 					<div class="logo menu_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
 					<ul>
-						<li class="menu_item"><a href="#">home</a></li>
-						<li class="menu_item"><a href="about.html">galery </a></li>
-						<li class="menu_item"><a href="offers.html">blog</a></li>
-						<li class="menu_item"><a href="blog.html">tentang</a></li>
+						<li class="menu_item"><a href="<?= base_url()?>">home</a></li>
+						<li class="menu_item"><a href="<?= base_url('galery')?>">galery </a></li>
+						<li class="menu_item"><a href="<?= base_url('blog')?>">blog</a></li>
 						<li class="menu_item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Tentang

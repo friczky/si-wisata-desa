@@ -9,6 +9,10 @@ class Pengguna extends CI_Controller {
 		//Load Dependencies
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('upload');
+		$role = $this->session->userdata('role');
+		if ($role != 'Administrator') {
+			echo "<script> alert('Anda tidak mempunyai akses untuk membuka halaman ini !') ; window.location.href='../admin'; </script>";
+		}
 	}
 
 	// List all your items

@@ -77,7 +77,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form action="<?= base_url('admin/pengguna/password/')?><?= $p['id']?>">
+          <form action="<?= base_url('admin/pengguna/password/')?><?= $p['id']?>" method="post" enctype="multipart/form-data">
             <label>Password Baru</label>
             <input type="password" name="password" class="form-control"></input><br>
             <input type="submit" class="btn btn-primary" value="Simpan">

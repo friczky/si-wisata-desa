@@ -35,7 +35,7 @@
                 <div class="icon">
                   <i class="fa fa-pencil"></i>
                 </div>
-                <a href="<?= base_url('admin')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/blog')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
             <div class="col-lg-3 col-xs-6">
@@ -48,7 +48,7 @@
                 <div class="icon">
                   <i class="fa fa-file-image-o"></i>
                 </div>
-                <a href="<?= base_url('admin')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/foto')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
             <div class="col-lg-3 col-xs-6">
@@ -61,7 +61,7 @@
                 <div class="icon">
                   <i class="fa fa-film"></i>
                 </div>
-                <a href="<?= base_url('admin')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/video')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
             <div class="col-lg-3 col-xs-6">
@@ -74,7 +74,7 @@
                 <div class="icon">
                   <i class="fa fa-users"></i>
                 </div>
-                <a href="<?= base_url('admin')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?= base_url('admin/pengurus')?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div><!-- ./col -->
           </div><!-- /.row -->
